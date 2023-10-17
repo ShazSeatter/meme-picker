@@ -21,18 +21,24 @@
       </div>
     </header>
     <main>
-      <h3>Select an Emotion</h3>
+      <h3>Select a Theme</h3>
       <div class="controls--container">
-        <div class="theme-radios" id="theme-radios">
+        <div class="theme--radios" id="theme--radios">
           <!-- radio buttons html willl render here-->
         </div>
-        <div class="gifs--check-container">
-          <label for="gifs--only--checkbox" class="gifs--check-label">Animated GIFs only</label>
-          <input type="checkbox" id="gifs--only--checkbox"/>
+        <div class="gifs-check--container">
+          <label for="gifs-only--checkbox" class="gifs-check--label">Animated GIFs only</label>
+          <input type="checkbox" id="gifs-only--checkbox"/>
+        </div>
+        <button class="get-image--btn" id="get-image--btn">Get Image</button>
+      </div>
+    </main>
+      <div class="meme-modal" id="meme-modal">
+        <button class="meme-modal-close--btn" id="meme-modal-close--btn">X</button>
+        <div id="meme-modal--inner">
+          <!-- where the single object will render -->
         </div>
       </div>
-
-    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

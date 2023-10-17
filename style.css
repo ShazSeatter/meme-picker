@@ -18,7 +18,8 @@ header {
 }
 
 h3 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* typography */
@@ -37,6 +38,8 @@ h2 {
 
 h3 {
   margin: 25px;
+  font-weight: 700; 
+  font-size: 25px;
 }
 
 .controls--container {
@@ -47,3 +50,106 @@ h3 {
 }
 
 /* controls */
+
+.theme--radios {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #bcbcbc;
+  border-radius: 5px;
+}
+
+.radio{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #bcbcbc;
+  padding: 8px 16px;
+}
+
+.radio:first-child{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.radio:last-child{
+  border-bottom: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+label {
+  font-size: 16px;
+  padding: 3px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.highlight{
+  background-color: #00897B;
+  color: #fff;
+  font-weight: 700;
+  accent-color: #00897b;
+}
+
+input[type="radio"]{
+  cursor: pointer;
+}
+
+.gifs-check--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px; 
+  margin: 16px;
+}
+
+.get-image--btn {
+  background-color: #00897B;
+  color: whitesmoke;
+  padding: 15px 20px;
+  font-size: 24px; 
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+/* modal */
+
+.meme-modal{
+  display: none; /*flex when displayed*/
+  position: fixed;
+  margin: auto;
+  top: 80px;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #00897B;
+  border-radius: 5px;
+  width: 420px;
+  height: 490px;
+  background-color: #7bbeb7;
+}
+
+.nature-img{
+  max-width: 340px;
+  max-height: 420px;
+  border-radius: 5px;
+}
+
+.meme-modal-close--btn{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  background-color: transparent;
+  border: 2px solid #555;
+  color: #555;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 14px;
+}
+
+.meme-modal-close--btn:hover{
+  color: white;
+  background-color: #00897B;
+  border: 2px solid #00897B;
+}
