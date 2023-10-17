@@ -30,7 +30,7 @@ function renderNatureMeme() {
   memeModalInner.innerHTML = `
         <img 
         class="nature-img" 
-        src="/assets/${natureObject.imageSrc}"
+        src="images/${natureObject.imageSrc}"
         alt="${natureObject.alt}"
         >
   `
