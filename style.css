@@ -1,0 +1,33 @@
+html, body {
+  margin: 0; 
+  font-family: 'Comfortaa', sans-serif;
+}
+
+
+/* layout */
+header {
+  background-color: #00897B;
+  padding: 20px;
+}
+
+.header--inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+}
+
+
+/* typography */
+
+h1, h2 {
+  color: whitesmoke;
+}
+
+h1{
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 16px;
+}
