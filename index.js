@@ -1,5 +1,5 @@
 import './style.css'
-import { natureData } from '/data.js';
+import { natureData } from './data.js';
 
 const themeRadios = document.getElementById('theme--radios')
 const getImgBtn = document.getElementById('get-image--btn')
