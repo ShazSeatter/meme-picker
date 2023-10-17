@@ -17,6 +17,9 @@ header {
   gap: 20px; 
 }
 
+h3 {
+  text-align: center;
+}
 
 /* typography */
 
@@ -31,3 +34,16 @@ h1{
 h2 {
   font-size: 16px;
 }
+
+h3 {
+  margin: 25px;
+}
+
+.controls--container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0px auto;
+}
+
+/* controls */
